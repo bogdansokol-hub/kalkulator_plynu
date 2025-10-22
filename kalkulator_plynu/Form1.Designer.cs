@@ -48,6 +48,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Kieliszek", "Szklanka", "Kubek", "Butelka" });
             comboBox1.Location = new Point(459, 52);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
@@ -145,6 +146,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Roztwor soli", "Roztwor cukru", "Roztwor alkoholu", "Woda c octem" });
             comboBox2.Location = new Point(459, 104);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(121, 23);
